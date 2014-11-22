@@ -23,7 +23,11 @@ class stud
 	}
 	void result()
 	{
-		
+		cout<<"Marks of subject 1 :"<<sub1;		
+		cout<<"Marks of subject 2 :"<<sub2;
+		cout<<"Marks of subject 3 :"<<sub3;
+		cout<<"Total :"<<sub1+sub2+sub3;
+		cout<<"perc. :"<<((sub1+sub2+sub3)/3)*100;	
 	}
 }
 
