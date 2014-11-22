@@ -20,10 +20,16 @@ class stud
 		this.sub1=sub1;
 		this.sub2=sub2;
 		this.sub3=sub3;
-	}	
+	}
+	void result()
+	{
+		
+	}
 }
 
 void main()
 {
-	
+	stud s=new stud();
+	s.getdata();
+	s.result();
 }
